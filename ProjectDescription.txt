@@ -9,4 +9,4 @@ T1 mean absolute error 0.320298243616772
 
 76th percentile results in my class for mean absolute error
 
-Note: over 50% of the data has the same label, so median error is a flawed metric for this task. However, it was used in the initial task description so I included it anyway.
+Evaluation metrics note: over 50% of the data has the same label, so median error is a flawed metric for this task. However, it was used in the initial task description so I included it anyway.
