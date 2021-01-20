@@ -1,0 +1,12 @@
+This is a regression problem. The training data consists of 27,930 samples, and I provide predictions on 9,311 unlabeled test samples (not uploaded to github). The features are 9,491 dimensional and integer-valued. The labels are real scalar numbers.
+
+Each sample is a different chemical, and the features describe important physical properties of those chemicals. The labels are binding affinity to a molecule of interest.
+
+Final evaluation metrics on unseen data
+T1 median absolute error 0.183339083862305	
+T1 prediction error 0.177870035171509
+T1 mean absolute error 0.320298243616772
+
+76th percentile results in my class for mean absolute error
+
+Note: over 50% of the data has the same label, so median error is a flawed metric for this task. However, it was used in the initial task description so I included it anyway.
